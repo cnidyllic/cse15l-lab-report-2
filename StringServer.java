@@ -11,12 +11,12 @@ class Handler implements URLHandler {
 
     @Override
     public String handleRequest(URI url) {
+        //checks if path ends with the right 
         if (url.getPath().equals("/add-message")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                number++;
-                stringSoFar += number + ". " + parameters[1] + "\n";
-                return stringSoFar;
+                str += ++number + ". " + parameters[1] + "\n";
+                return str;
             } else {
                 return "Invalid parameter!";
             }
