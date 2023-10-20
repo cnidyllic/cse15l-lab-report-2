@@ -2,7 +2,7 @@
 
 ---
 
-#### 🚀 Part 1: StringServer Overview
+### 🚀 Part 1: StringServer Overview
 
 **`StringServer`** is a simple web server written in Java. Its primary purpose is to accept requests of the form `/add-message?s=<string>`. On receiving such a request, it adds the message, prefixed by a line number, to a running string and then returns the updated string as a response.
 
@@ -87,6 +87,6 @@ If set up correctly, we'll be logged into `ieng6` without being prompted for a p
 
 ---
 
-#### 💡 Part 3: Reflection
+### 💡 Part 3: Reflection
 
 From this lab, I learned about the potency of straightforward string operations in crafting scalable server applications. By maintaining a running string and adding new messages with incremental line numbers, I can efficiently track and display a sequential list of messages. Beyond this server-side application, I also expanded my knowledge on some fundamental command-line utilities, which are essential tools for any developer or system administrator. Among these were the ssh, scp, and mkdir commands which provided me insight on establishing secure remote servers, on securely transfering files between systems, and on creating directories, respectively.
