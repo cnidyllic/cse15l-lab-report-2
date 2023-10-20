@@ -24,14 +24,16 @@
 
 #### 📸 Screenshots & Description
 
-![image](first-message.png) (After `/add-message?s=Hello, my name is Corey`):
+![image](first-message.png)
+(After `/add-message?s=Hello, my name is Corey`):
 - **Method Called**: `handleRequest` from the `Handler` class.
 - **URI**: Path `/add-message` with query `s=Hello, my name is Corey`.
 - **Updates**:
   - String `str` -> `1. Hello, my name is Corey\n`
   - int `num` increases to `1` (before `str` is changed).
 
-![image](second-message.png) (After `/add-message?s=I like fruits`):
+![image](second-message.png) 
+(After `/add-message?s=I like fruits`):
 - **Method Called**: `handleRequest` from the `Handler` class.
 - **URI**: Path `/add-message` with query `s=How are you`.
 - **Updates**:
