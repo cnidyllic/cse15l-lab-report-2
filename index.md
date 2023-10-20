@@ -1,8 +1,8 @@
-To run the server:
+To run the String Server:
 ```bash
-javac Server.java Program.java
-java Main [port]
+javac Server.java StringServer.java
+java StringServer [port]
 //e.g: java Main 8080
 ```
-`StringServer` will take inputs of strings, keeping track of a single string that gets added to by incoming requests. The requests should look like this: 
+`StringServer.java` will take inputs of strings, keeping track of a single string that gets added to by incoming requests. The requests should look like this: 
 `/add-message?s=<string>`
