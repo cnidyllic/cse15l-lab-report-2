@@ -1,10 +1,6 @@
 import java.net.URI;
 import java.io.IOException;
 
-interface URLHandler {
-    String handleRequest(URI url);
-}
-
 class Handler implements URLHandler {
     private String str = "";
     private int number = 0;
