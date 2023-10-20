@@ -30,18 +30,18 @@
 
 (After `/add-message?s=Hello, my name is Corey`):
 - **Method Called**: `handleRequest` from the `Handler` class.
-- **URI**: Path `/add-message` with query `s=Hello, my name is Corey`.
+- **URI**: Path `/add-message` with query `s=Hello,%20my%20name%20is%20Corey`.
 - **Updates**:
-  - String `str` -> `1. Hello, my name is Corey\n`
+  - String `str` -> `1. Hello,%20my%20name%20is%20Corey\n`
   - int `num` increases to `1` (before `str` is changed).
 
 ![image](second-message.png) 
 
 (After `/add-message?s=I like fruits`):
 - **Method Called**: `handleRequest` from the `Handler` class.
-- **URI**: Path `/add-message` with query `s=How are you`.
+- **URI**: Path `/add-message` with query `s=I%20like%20fruits`.
 - **Updates**:
-  - String `str` -> `1. Hello, my name is Corey\n2. I like fruits\n`
+  - String `str` -> `1. Hello,%20my%20name%20is%20Corey\n2. I%20like%20fruits\n`
   - int `num` increases to `2` (before `str` is changed).
  
 ---
