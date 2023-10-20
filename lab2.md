@@ -5,6 +5,8 @@
 ### 🚀 Part 1: StringServer Overview
 
 **`StringServer`** is a simple web server written in Java. Its primary purpose is to accept requests of the form `/add-message?s=<string>`. On receiving such a request, it adds the message, prefixed by a line number, to a running string and then returns the updated string as a response.
+![image](https://github.com/cnidyllic/cse15l-lab-report-2/assets/146884284/6603b73f-dde4-421e-b1ff-b6981e65628c)
+
 
 ##### 🔍 Example(s):
 
