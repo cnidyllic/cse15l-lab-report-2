@@ -68,9 +68,9 @@ This path is to the private key (`id_rsa`) typically used for SSH access.
 
 The path to public key for logging into `ieng6` (within ieng6 account) is:
 ```bash
-$ cs15lfa23mb@ieng6.ucsd.edu:~/.ssh/authorized_keys
+$ /home/linux/ieng6/cs15lfa23/cs15lfa23mb/.ssh/id_rsa.pub
 ```
-The path to the public key (`id_rsa.pub`) typically used for SSH access was copied from my computer to this account using `scp`.
+The path to the public key (`~/id_rsa.pub`) typically used for SSH access was copied from my computer to this account using `scp`.
 
 ![image](public-key.png)
 
