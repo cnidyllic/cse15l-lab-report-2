@@ -60,7 +60,8 @@ $ C:\Users\corey nguyen/.ssh/id_rsa
 ```
 This path is to the private key (`id_rsa`) typically used for SSH access.
 
-![image](private-key.png)
+![image](https://github.com/cnidyllic/cse15l-lab-report-2/assets/146884284/ab5e775d-7e6a-4e27-bca9-422915871fe3)
+
 
 ---
 
@@ -72,7 +73,8 @@ $ /home/linux/ieng6/cs15lfa23/cs15lfa23mb/.ssh/id_rsa.pub
 ```
 The path to the public key (`~/id_rsa.pub`) typically used for SSH access was copied from my computer to this account using `scp`.
 
-![image](public-key.png)
+![image](https://github.com/cnidyllic/cse15l-lab-report-2/assets/146884284/f691f23b-50c6-4ba5-a414-2ac9c0488dff)
+
 
 ---
 
